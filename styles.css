@@ -1,0 +1,53 @@
+.about{
+    background-color: #068DA9; 
+}
+.img-fluid{
+    padding-right:10px ;
+}
+.head{
+    color: red;
+}
+.colorBox{
+    width: 150px;
+    height: 150px;
+    background-color: #E76161;
+    border-radius: 100px;
+
+}
+.edu{
+    color: #E76161;
+}
+.education-container{
+   background-color: #DBDFEA;
+}
+.project-container{
+    background-color: #068DA9; 
+
+}
+.portfolio{
+    background-color: #DBDFEA;
+
+}
+.contact-conatiner{
+    background-color: #374259;
+
+}
+.btn{
+    width: 130px;
+
+}
+.y{
+    margin-left: 40% ;
+    padding: 20px;
+}
+.x{
+    width: 50px;
+    height: 50px;
+}
+.icon{
+    gap:20px;
+}
+.footer-container{
+    background-color: #068DA9; 
+
+}
