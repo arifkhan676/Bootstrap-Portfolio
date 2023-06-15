@@ -13,6 +13,8 @@
 
 </head>
 <body>
+
+
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 navbar-default sticky-top">
         <div class="container-fluid ">
@@ -36,6 +38,10 @@
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">Contact</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="login.php">Login</a>
+              </li>
+             
             </ul>
           </div>
         </div>
@@ -247,7 +253,7 @@
         </div>
 
 
-      </div>
+      </div> 
     </div>
 
 
