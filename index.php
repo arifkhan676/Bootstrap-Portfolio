@@ -14,7 +14,17 @@
 </head>
 <body>
 
-
+<?php
+require 'db.php';
+if(!empty($_SESSION["id"])){
+  $id = $_SESSION["id"];
+  $result = mysqli_query($conn, "SELECT * FROM kmb WHERE id = $id");
+  $row = mysqli_fetch_assoc($result);
+}
+else{
+  header("Location: login.php");
+}
+?>
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3 navbar-default sticky-top">
         <div class="container-fluid ">
@@ -37,9 +47,6 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="login.php">Login</a>
               </li>
              
             </ul>

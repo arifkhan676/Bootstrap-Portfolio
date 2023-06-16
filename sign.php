@@ -34,7 +34,7 @@ if(isset($_POST["submit"])){
   }
   else{
     if($password == $confirmpassword){
-      $query = "INSERT INTO kmb VALUES('','$name','$username','$email','$password')";
+      $query = "INSERT INTO kmb VALUES('','$name','$username','$email','$confirmpassword','$password')";
       mysqli_query($conn, $query);
       echo
       "<script> alert('Registration Successful'); </script>";
